@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/StaffHub.Api/StaffHub.Api.csproj" />
+    <Project Path="src/StaffHub.Application/StaffHub.Application.csproj" />
+    <Project Path="src/StaffHub.Domain/StaffHub.Domain.csproj" />
+    <Project Path="src/StaffHub.Infrastructure/StaffHub.Infrastructure.csproj" />
+  </Folder>
+</Solution>
