@@ -1,0 +1,25 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+backend/src/StaffHub.Api/wwwroot/uploads/
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
+*.log
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
