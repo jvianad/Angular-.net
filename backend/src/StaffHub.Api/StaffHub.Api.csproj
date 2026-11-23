@@ -12,4 +12,9 @@
     <PackageReference Include="Scalar.AspNetCore" Version="3.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\StaffHub.Application\StaffHub.Application.csproj" />
+    <ProjectReference Include="..\StaffHub.Infrastructure\StaffHub.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

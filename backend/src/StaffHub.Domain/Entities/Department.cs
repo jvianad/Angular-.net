@@ -4,6 +4,6 @@ namespace StaffHub.Domain.Entities;
 
 public class Department : BaseEntity
 {
-    public string Name { get; set; }
-    public ICollection<Employee> Employees { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public ICollection<Employee> Employees { get; set; } = [];
 }
